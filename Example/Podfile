@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYProgressBar_Tests' do
+  pod 'HYProgressBar', :path => '../'
+  
+  
+end
