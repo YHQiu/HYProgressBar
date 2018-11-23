@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/HYProgressBar.svg?style=flat)](https://cocoapods.org/pods/HYProgressBar)
 ## Demo
 ![image](https://github.com/YHQiu/HYProgressBar/blob/master/show.gif)   
+![image](https://github.com/YHQiu/HYProgressBar/blob/master/gradientShow.gif)
 ## Support
 WebView Progress Bar
 WebView Progress View
