@@ -12,12 +12,14 @@ WebView Progress Bar
 WebView Progress View
 
 
-## Example
-
+## Example1
 [HYProgressBar new]setProgressListen:self.webView];
+
+## Example2
 [[[HYProgressBar alloc]initWithProgressView:[HYGradientProgressView new]] setProgressListen:self.webView];
 
 ## Requirements
+Now only suport WKWebView
 
 ## Installation
 
