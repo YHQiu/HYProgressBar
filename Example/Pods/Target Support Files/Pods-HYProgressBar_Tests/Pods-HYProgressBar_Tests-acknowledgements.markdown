@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## HYProgressBar
 
-Copyright (c) 2018 develop@iFilmo.com <632244510@qq.com>
+Copyright (c) 2018 https://github.com/YHQiu <632244510@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

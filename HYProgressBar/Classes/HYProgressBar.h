@@ -3,7 +3,7 @@
 //  HYProgressBar_Tests
 //
 //  Created by 邱弘宇 on 2018/11/22.
-//  Copyright © 2018 develop@iFilmo.com. All rights reserved.
+//  Copyright © 2018 https://github.com/YHQiu. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,6 +1,6 @@
 # HYProgressBar
 
-[![CI Status](https://img.shields.io/travis/develop@iFilmo.com/HYProgressBar.svg?style=flat)](https://travis-ci.org/develop@iFilmo.com/HYProgressBar)
+[![CI Status](https://img.shields.io/travis/https://github.com/YHQiu/HYProgressBar.svg?style=flat)](https://travis-ci.org/https://github.com/YHQiu/HYProgressBar)
 [![Version](https://img.shields.io/cocoapods/v/HYProgressBar.svg?style=flat)](https://cocoapods.org/pods/HYProgressBar)
 [![License](https://img.shields.io/cocoapods/l/HYProgressBar.svg?style=flat)](https://cocoapods.org/pods/HYProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/HYProgressBar.svg?style=flat)](https://cocoapods.org/pods/HYProgressBar)
@@ -8,6 +8,8 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+And
+[HYProgressBar new]setProgressListen:self.webView];
 
 ## Requirements
 
@@ -22,7 +24,7 @@ pod 'HYProgressBar'
 
 ## Author
 
-develop@iFilmo.com, 632244510@qq.com
+https://github.com/YHQiu, 632244510@qq.com
 
 ## License
 

@@ -3,7 +3,7 @@
 //  RJSCore
 //
 //  Created by 邱弘宇 on 2018/3/22.
-//  Copyright © 2018年 develop@iFilmo.com. All rights reserved.
+//  Copyright © 2018年 https://github.com/YHQiu. All rights reserved.
 //
 
 #import <objc/runtime.h>

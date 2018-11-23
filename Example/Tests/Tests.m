@@ -2,8 +2,8 @@
 //  HYProgressBarTests.m
 //  HYProgressBarTests
 //
-//  Created by develop@iFilmo.com on 11/22/2018.
-//  Copyright (c) 2018 develop@iFilmo.com. All rights reserved.
+//  Created by https://github.com/YHQiu on 11/22/2018.
+//  Copyright (c) 2018 https://github.com/YHQiu. All rights reserved.
 //
 
 @import XCTest;
