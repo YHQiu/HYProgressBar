@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		113F1D2B2D1848EAA88EBE2A /* Pods_HYProgressBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F938D473091AA9EB7C3811 /* Pods_HYProgressBar_Tests.framework */; };
+		29C56FA921A67D1A00DCDA29 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 29C56FA521A67D1900DCDA29 /* .gitkeep */; };
+		29C56FAB21A67D1A00DCDA29 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 29C56FA821A67D1900DCDA29 /* .gitkeep */; };
+		29C56FAE21A67D4000DCDA29 /* HYProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C56FAD21A67D4000DCDA29 /* HYProgressBar.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -17,7 +20,11 @@
 
 /* Begin PBXFileReference section */
 		10F938D473091AA9EB7C3811 /* Pods_HYProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59291CE2599F2B5896AC6C6F /* HYProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYProgressBar.podspec; path = ../HYProgressBar.podspec; sourceTree = "<group>"; };
+		29C56FA521A67D1900DCDA29 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		29C56FA821A67D1900DCDA29 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		29C56FAC21A67D4000DCDA29 /* HYProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYProgressBar.h; sourceTree = "<group>"; };
+		29C56FAD21A67D4000DCDA29 /* HYProgressBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYProgressBar.m; sourceTree = "<group>"; };
+		59291CE2599F2B5896AC6C6F /* HYProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYProgressBar.podspec; path = ../HYProgressBar.podspec; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,9 +34,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7B6944B1A26A747D0C21C8AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7B6944B1A26A747D0C21C8AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		934C1873117ED6176AF54627 /* Pods-HYProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYProgressBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYProgressBar_Tests/Pods-HYProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3E4A8B9EAF2588CDC688ACC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C3E4A8B9EAF2588CDC688ACC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC98FDA00B7B0D7CA98929FF /* Pods-HYProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYProgressBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYProgressBar_Tests/Pods-HYProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,9 +55,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29C56FA321A67D1900DCDA29 /* HYProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				29C56FA421A67D1900DCDA29 /* Classes */,
+				29C56FA721A67D1900DCDA29 /* Assets */,
+			);
+			name = HYProgressBar;
+			path = ../HYProgressBar;
+			sourceTree = "<group>";
+		};
+		29C56FA421A67D1900DCDA29 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29C56FA521A67D1900DCDA29 /* .gitkeep */,
+				29C56FAC21A67D4000DCDA29 /* HYProgressBar.h */,
+				29C56FAD21A67D4000DCDA29 /* HYProgressBar.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		29C56FA721A67D1900DCDA29 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				29C56FA821A67D1900DCDA29 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				29C56FA321A67D1900DCDA29 /* HYProgressBar */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -178,7 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C56FAB21A67D1A00DCDA29 /* .gitkeep in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				29C56FA921A67D1A00DCDA29 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				29C56FAE21A67D4000DCDA29 /* HYProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

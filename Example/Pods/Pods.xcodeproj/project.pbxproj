@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0A9AE8A739A5D409362F5D64F1EF2F /* Pods-HYProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42150B731872FDAF3C370958ADA52423 /* Pods-HYProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CEC014552E335C4A7979FE1F06554C3 /* Pods-HYProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1DF4193558D407E5A6B948349F7CB /* Pods-HYProgressBar_Tests-dummy.m */; };
+		1F07AB37C685E4005EF003907FB3BB13 /* HYProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA27AB9D19E6E60EC18A3CA731C6268 /* HYProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		248B0BBF47AD3946913FBBE3FF7AD861 /* HYProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F11E1D14B265640E20572BFA8CCC038C /* HYProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E439DD7986EE3B863CF49DB7407D40 /* HYProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C48534629D8990511A1AE91895A6C4D4 /* HYProgressBar.m */; };
+		5A6089251C80F3CA09502A13A3C2255C /* HYProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB904E17251C0966A48E5AA204130A /* HYProgressBar-dummy.m */; };
+		7D235DC5A2B97818D4190B79971175A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		92FDEE1D8A1BD97C3807F3F98EB73F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65CCF61EA2C3E21F778F893BFEB45518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74F9502909EFEAABA58B83C3BDBDC97;
+			remoteInfo = HYProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD1DF4193558D407E5A6B948349F7CB /* Pods-HYProgressBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYProgressBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		185C78E254A0B812C683820F12DB247F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B1DBABC8789406860773CDCBE30B16 /* Pods-HYProgressBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYProgressBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		3204CE323B313E15355ACAE86292EA8D /* Pods-HYProgressBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HYProgressBar_Tests.modulemap"; sourceTree = "<group>"; };
+		41CF8A6C6B0C720DA0836B23D7B5A7DE /* Pods-HYProgressBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYProgressBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41F0F33D55953B4173CBC3345906C67E /* Pods-HYProgressBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYProgressBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42150B731872FDAF3C370958ADA52423 /* Pods-HYProgressBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYProgressBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		43CD942275183880B2A13B75AD5EAB7A /* HYProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYProgressBar.xcconfig; sourceTree = "<group>"; };
+		4D226FA9D13BED0316C3B6D91C573631 /* Pods-HYProgressBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYProgressBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4EFB904E17251C0966A48E5AA204130A /* HYProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYProgressBar-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A95C5F8A79078E9845B586B8BDE5DEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BC159DF8F586904A9CB4F3EA04AD98 /* HYProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HYProgressBar.modulemap; sourceTree = "<group>"; };
+		8AB70C52B1008A63FAD14B4BECFFBA73 /* Pods_HYProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYProgressBar_Tests.framework; path = "Pods-HYProgressBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925B60BE50B337E62E4AD9E535DE390B /* Pods-HYProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA27AB9D19E6E60EC18A3CA731C6268 /* HYProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		9AF9FA94DD20851143C429FE4F636222 /* Pods-HYProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1789CD93335F1D4E793DBF8C4A52FE /* HYProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYProgressBar.framework; path = HYProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38FCEF0597ED4BB76962949CD0D431D /* HYProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		C48534629D8990511A1AE91895A6C4D4 /* HYProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYProgressBar.m; path = HYProgressBar/Classes/HYProgressBar.m; sourceTree = "<group>"; };
+		F11E1D14B265640E20572BFA8CCC038C /* HYProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYProgressBar.h; path = HYProgressBar/Classes/HYProgressBar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CB4C36C7088919E9591B420438E2F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FDEE1D8A1BD97C3807F3F98EB73F60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2639B4038E38514C7BA48B807DD9DB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D235DC5A2B97818D4190B79971175A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE86E731CF683E14B0E6ECF12418FB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77BC159DF8F586904A9CB4F3EA04AD98 /* HYProgressBar.modulemap */,
+				43CD942275183880B2A13B75AD5EAB7A /* HYProgressBar.xcconfig */,
+				4EFB904E17251C0966A48E5AA204130A /* HYProgressBar-dummy.m */,
+				C38FCEF0597ED4BB76962949CD0D431D /* HYProgressBar-prefix.pch */,
+				9AA27AB9D19E6E60EC18A3CA731C6268 /* HYProgressBar-umbrella.h */,
+				6A95C5F8A79078E9845B586B8BDE5DEA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYProgressBar";
+			sourceTree = "<group>";
+		};
+		1E82DD8F87323A52A9965A6513D28E7F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCFEB2C12051E9A1ACC7C9786201740B /* HYProgressBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3AD4B2EB973B1048AC936F29FE2721CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7402AA2DD37EB96FF46D8ABA29B57C /* Pods-HYProgressBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1E82DD8F87323A52A9965A6513D28E7F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DCB19CC724E34BF9A135D206AEEC227C /* Products */,
+				3AD4B2EB973B1048AC936F29FE2721CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCFEB2C12051E9A1ACC7C9786201740B /* HYProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				F11E1D14B265640E20572BFA8CCC038C /* HYProgressBar.h */,
+				C48534629D8990511A1AE91895A6C4D4 /* HYProgressBar.m */,
+				0AE86E731CF683E14B0E6ECF12418FB6 /* Support Files */,
+			);
+			name = HYProgressBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DCB19CC724E34BF9A135D206AEEC227C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1789CD93335F1D4E793DBF8C4A52FE /* HYProgressBar.framework */,
+				8AB70C52B1008A63FAD14B4BECFFBA73 /* Pods_HYProgressBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7402AA2DD37EB96FF46D8ABA29B57C /* Pods-HYProgressBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				185C78E254A0B812C683820F12DB247F /* Info.plist */,
+				3204CE323B313E15355ACAE86292EA8D /* Pods-HYProgressBar_Tests.modulemap */,
+				41F0F33D55953B4173CBC3345906C67E /* Pods-HYProgressBar_Tests-acknowledgements.markdown */,
+				41CF8A6C6B0C720DA0836B23D7B5A7DE /* Pods-HYProgressBar_Tests-acknowledgements.plist */,
+				0CD1DF4193558D407E5A6B948349F7CB /* Pods-HYProgressBar_Tests-dummy.m */,
+				4D226FA9D13BED0316C3B6D91C573631 /* Pods-HYProgressBar_Tests-frameworks.sh */,
+				25B1DBABC8789406860773CDCBE30B16 /* Pods-HYProgressBar_Tests-resources.sh */,
+				42150B731872FDAF3C370958ADA52423 /* Pods-HYProgressBar_Tests-umbrella.h */,
+				9AF9FA94DD20851143C429FE4F636222 /* Pods-HYProgressBar_Tests.debug.xcconfig */,
+				925B60BE50B337E62E4AD9E535DE390B /* Pods-HYProgressBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYProgressBar_Tests";
+			path = "Target Support Files/Pods-HYProgressBar_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA41071C4C57AA7C7DB2ECC523529687 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F07AB37C685E4005EF003907FB3BB13 /* HYProgressBar-umbrella.h in Headers */,
+				248B0BBF47AD3946913FBBE3FF7AD861 /* HYProgressBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E35228F796D794845FBFEBC1DA6A17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0A9AE8A739A5D409362F5D64F1EF2F /* Pods-HYProgressBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C7CA30B13E689DA80237F201C8CC50F /* Pods-HYProgressBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E9CA9EC20632BE0CD30EE9436D3EC17 /* Build configuration list for PBXNativeTarget "Pods-HYProgressBar_Tests" */;
+			buildPhases = (
+				122CF4BFDDE1326919FF14F539AA2D30 /* Sources */,
+				0CB4C36C7088919E9591B420438E2F8F /* Frameworks */,
+				D3E35228F796D794845FBFEBC1DA6A17 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04AB03F86205F8EEC35C9FCDF19D88A /* PBXTargetDependency */,
+			);
+			name = "Pods-HYProgressBar_Tests";
+			productName = "Pods-HYProgressBar_Tests";
+			productReference = 8AB70C52B1008A63FAD14B4BECFFBA73 /* Pods_HYProgressBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E74F9502909EFEAABA58B83C3BDBDC97 /* HYProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B3989FA30F60D6FE01ADD897B88B84 /* Build configuration list for PBXNativeTarget "HYProgressBar" */;
+			buildPhases = (
+				943C4F3CAB938AEDE6E32E7FEE916F42 /* Sources */,
+				2639B4038E38514C7BA48B807DD9DB47 /* Frameworks */,
+				CA41071C4C57AA7C7DB2ECC523529687 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYProgressBar;
+			productName = HYProgressBar;
+			productReference = BC1789CD93335F1D4E793DBF8C4A52FE /* HYProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DCB19CC724E34BF9A135D206AEEC227C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74F9502909EFEAABA58B83C3BDBDC97 /* HYProgressBar */,
+				8C7CA30B13E689DA80237F201C8CC50F /* Pods-HYProgressBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122CF4BFDDE1326919FF14F539AA2D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEC014552E335C4A7979FE1F06554C3 /* Pods-HYProgressBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943C4F3CAB938AEDE6E32E7FEE916F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6089251C80F3CA09502A13A3C2255C /* HYProgressBar-dummy.m in Sources */,
+				33E439DD7986EE3B863CF49DB7407D40 /* HYProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04AB03F86205F8EEC35C9FCDF19D88A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYProgressBar;
+			target = E74F9502909EFEAABA58B83C3BDBDC97 /* HYProgressBar */;
+			targetProxy = 65CCF61EA2C3E21F778F893BFEB45518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		073399D6E046A11F4477A5DA7055C243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CD942275183880B2A13B75AD5EAB7A /* HYProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYProgressBar/HYProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYProgressBar/HYProgressBar.modulemap";
+				PRODUCT_NAME = HYProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		60DBC8912EB5062E51D82C858D51D6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CD942275183880B2A13B75AD5EAB7A /* HYProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYProgressBar/HYProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYProgressBar/HYProgressBar.modulemap";
+				PRODUCT_NAME = HYProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		91A0A50D0CF866804EADD8DBFC2167FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF9FA94DD20851143C429FE4F636222 /* Pods-HYProgressBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYProgressBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYProgressBar_Tests/Pods-HYProgressBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYProgressBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D500512C0BAB764ECD613969BDF2A95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925B60BE50B337E62E4AD9E535DE390B /* Pods-HYProgressBar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYProgressBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYProgressBar_Tests/Pods-HYProgressBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HYProgressBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E9CA9EC20632BE0CD30EE9436D3EC17 /* Build configuration list for PBXNativeTarget "Pods-HYProgressBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A0A50D0CF866804EADD8DBFC2167FA /* Debug */,
+				D500512C0BAB764ECD613969BDF2A95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59B3989FA30F60D6FE01ADD897B88B84 /* Build configuration list for PBXNativeTarget "HYProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073399D6E046A11F4477A5DA7055C243 /* Debug */,
+				60DBC8912EB5062E51D82C858D51D6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
