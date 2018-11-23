@@ -4,6 +4,12 @@
 [![Version](https://img.shields.io/cocoapods/v/HYProgressBar.svg?style=flat)](https://cocoapods.org/pods/HYProgressBar)
 [![License](https://img.shields.io/cocoapods/l/HYProgressBar.svg?style=flat)](https://cocoapods.org/pods/HYProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/HYProgressBar.svg?style=flat)](https://cocoapods.org/pods/HYProgressBar)
+## Demo
+![image](https://github.com/YHQiu/HYProgressBar/master/show.gif)   
+## Support
+WebView Progress Bar
+WebView Progress View
+
 
 ## Example
 
