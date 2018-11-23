@@ -14,6 +14,7 @@ WebView Progress View
 ## Example
 
 [HYProgressBar new]setProgressListen:self.webView];
+[[[HYProgressBar alloc]initWithProgressView:[HYGradientProgressView new]] setProgressListen:self.webView];
 
 ## Requirements
 
