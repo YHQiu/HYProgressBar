@@ -301,7 +301,11 @@ static char *rjs_weakDelayHiderTimerForWKWeb;
         [self addSubview:self.weakProgressView];
         self.weakProgressView.frame = CGRectMake(0, 0, self.bounds.size.width, progressView.frame.size.height);
     }
-    [progressView hy_setProgress:[progressView startProgress] animated:YES];
+    CGFloat startProgress = 0.15;
+    if ([progressView respondsToSelector:@selector(startProgress)]) {
+        startProgress = [progressView startProgress];
+    }
+    [progressView hy_setProgress:startProgress animated:YES];
     
 }
 
@@ -349,15 +353,22 @@ static char *rjs_weakDelayHiderTimerForWKWeb;
     [self.weakProgressView hy_setProgress:1 animated:YES];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         self.weakProgressView.hidden = YES;
-        [self.weakProgressView hy_setProgress:[self.weakProgressView startProgress] animated:NO];
+        CGFloat startProgress = 0.15;
+        if ([self.weakProgressView respondsToSelector:@selector(startProgress)]) {
+            startProgress = [self.weakProgressView startProgress];
+        }
+        [self.weakProgressView hy_setProgress:startProgress animated:NO];
     });
 }
 
 - (void)startHideProgressViewTimer{
     
     [self invalidateDelayHideTimer];
-    
-    self.delayHideTimer = [NSTimer scheduledTimerWithTimeInterval:[self.weakProgressView delayTime] target:self selector:@selector(delayHideProgressView) userInfo:nil repeats:NO];
+    CGFloat delayTime = 10;
+    if ([self.weakProgressView respondsToSelector:@selector(delayTime)]) {
+        delayTime = [self.weakProgressView delayTime];
+    }
+    self.delayHideTimer = [NSTimer scheduledTimerWithTimeInterval:delayTime target:self selector:@selector(delayHideProgressView) userInfo:nil repeats:NO];
     
 }
 

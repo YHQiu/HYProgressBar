@@ -11,6 +11,7 @@
 		29C56FA921A67D1A00DCDA29 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 29C56FA521A67D1900DCDA29 /* .gitkeep */; };
 		29C56FAB21A67D1A00DCDA29 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 29C56FA821A67D1900DCDA29 /* .gitkeep */; };
 		29C56FAE21A67D4000DCDA29 /* HYProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C56FAD21A67D4000DCDA29 /* HYProgressBar.m */; };
+		29C56FBC21A7EC9F00DCDA29 /* HYGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C56FBB21A7EC9F00DCDA29 /* HYGradientProgressView.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +25,8 @@
 		29C56FA821A67D1900DCDA29 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		29C56FAC21A67D4000DCDA29 /* HYProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYProgressBar.h; sourceTree = "<group>"; };
 		29C56FAD21A67D4000DCDA29 /* HYProgressBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYProgressBar.m; sourceTree = "<group>"; };
+		29C56FBA21A7EC9F00DCDA29 /* HYGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGradientProgressView.h; sourceTree = "<group>"; };
+		29C56FBB21A7EC9F00DCDA29 /* HYGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGradientProgressView.m; sourceTree = "<group>"; };
 		59291CE2599F2B5896AC6C6F /* HYProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYProgressBar.podspec; path = ../HYProgressBar.podspec; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,6 +74,8 @@
 				29C56FA521A67D1900DCDA29 /* .gitkeep */,
 				29C56FAC21A67D4000DCDA29 /* HYProgressBar.h */,
 				29C56FAD21A67D4000DCDA29 /* HYProgressBar.m */,
+				29C56FBA21A7EC9F00DCDA29 /* HYGradientProgressView.h */,
+				29C56FBB21A7EC9F00DCDA29 /* HYGradientProgressView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				29C56FBC21A7EC9F00DCDA29 /* HYGradientProgressView.m in Sources */,
 				29C56FAE21A67D4000DCDA29 /* HYProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
